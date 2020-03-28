@@ -49,7 +49,8 @@ with open(file) as data:
 avg_change = round((sum(changes)/len(changes)),0)
 
 analysis = f"""
-
+Financial Analysis
+------------------------------------------------
 Total Profit: ${total_profit}
 Total Months: {total_months}
 Average Monthly Change: ${avg_change}
